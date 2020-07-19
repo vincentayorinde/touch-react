@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+    install:
+        commands:
+            - echo Installing node 10x...
+            - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+            - apt install -y nodejs
+        pre_build:
+            commands:
+                - echo Installing dependencies...
+                - npm install
+        build:
+            commands:
+                - echo Building...
+                - npm start
+
+artifacts:
+    files:
+        - '**/*'
+    discard-paths: no
+    base-directory: public

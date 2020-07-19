@@ -1,0 +1,72 @@
+// PARTIES
+export const GET_PARTIES = 'GET_PARTIES';
+export const UPDATE_PARTY = 'UPDATE_PARTY';
+export const DELETE_PARTY = 'DELETE_PARTY';
+export const ADD_PARTY = 'ADD_PARTY';
+
+// ELECTORAL AREAS
+export const GET_ELECTORAL_AREAS = 'GET_ELECTORAL_AREAS';
+export const UPDATE_ELECTORAL_AREA = 'UPDATE_ELECTORAL_AREA';
+export const DELETE_ELECTORAL_AREA = 'DELETE_ELECTORAL_AREA';
+export const ADD_ELECTORAL_AREA = 'ADD_ELECTORAL_AREA';
+
+// MODULES
+export const GET_MODULES = 'GET_MODULES';
+export const UPDATE_MODULE = 'UPDATE_MODULE';
+export const DELETE_MODULE = 'DELETE_MODULE';
+export const ADD_MODULE = 'ADD_MODULE';
+
+// POSITIONS
+export const GET_POSITIONS = 'GET_POSITIONS';
+export const UPDATE_POSITION = 'UPDATE_POSITION';
+export const DELETE_POSITION = 'DELETE_POSITION';
+export const ADD_POSITION = 'ADD_POSITION';
+
+// PEOPLE
+export const GET_PEOPLE = 'GET_PEOPLES';
+export const UPDATE_PEOPLE = 'UPDATE_PEOPLE';
+export const DELETE_PEOPLE = 'DELETE_PEOPLE';
+export const ADD_PEOPLE = 'ADD_PEOPLE';
+
+// DUES
+export const GET_DUES = 'GET_DUES';
+export const UPDATE_DUES = 'UPDATE_DUES';
+export const ADD_DUES = 'ADD_DUES';
+
+// CANDIDATES
+export const GET_CANDIDATES = 'GET_CANDIDATES';
+export const UPDATE_CANDITATE = 'UPDATE_CANDITATE';
+export const DELETE_CANDIDATE = 'DELETE_CANDIDATE';
+export const ADD_CANDIDATE = 'ADD_CANDIDATE';
+
+// VOTERS
+export const GET_VOTERS = 'GET_VOTERS';
+export const UPDATE_VOTER = 'UPDATE_VOTER';
+export const DELETE_VOTER = 'DELETE_VOTER';
+export const ADD_VOTER = 'ADD_VOTER';
+
+// RESULTS
+export const GET_RESULTS = 'GET_RESULTS';
+
+// GET STATS
+export const GET_STATS = 'GET_STATS'
+
+// CAST VOTE
+export const CAST_VOTE = 'CAST_VOTE';
+
+// CHECK VOTER
+export const CHECK_VOTER = 'CHECK_VOTER';
+export const FOUND_VOTER = 'FOUND_VOTER';
+
+export const USER_LOADING = 'USER_LOADING';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const CLEAN_UP_AUTH = 'CLEAN_UP_AUTH';
+
+export const GET_ERRORS = 'GET_ERRORS';
+export const GET_SUCCESS = 'GET_SUCCESS';
+export const CLEAN_UP = 'CLEAN_UP';
+export const LOADING = 'LOADING';
